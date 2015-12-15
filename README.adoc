@@ -1,8 +1,9 @@
 == MongoDB : Docker
 
-İstenenler doğrultusunda Dockerfile komutlarının okunmasıyla replica set yaklaşımı için gerekli imaj oluşturulacak. Ayrıca bu repo bind-mount volume yaklaşımının nasıl yapıldığını da uygulamalı anlatmaktadır. Ubuntu üzerine mongodb:3.0.7 ile birlikte gerekli diğer detaylarla oluşturulan bir image'e sahibiyiz. Bir mongodb sunucusunu çalıştırmak (daha doğrusu bir container çalıştırmak) için config dosyasını host tarafından konak container'daki belirtilen volume noktasına eşlenmesi gerekmektedir.  
+İstenenler doğrultusunda Dockerfile komutlarının okunmasıyla replica set yaklaşımı için gerekli imaj oluşturulacak. Ayrıca bu repo bind-mount volume yaklaşımının nasıl yapıldığını da uygulamalı anlatmaktadır. Ubuntu üzerine mongodb:3.0.7, mongodb:3.0.7-u ve mongodb:3.2 ile birlikte gerekli diğer detaylarla oluşturulan 3 image'e sahibiyiz. Bir mongodb sunucusunu çalıştırmak (daha doğrusu bir container çalıştırmak) için config dosyasını host tarafından konak container'daki belirtilen volume noktasına eşlenmesi gerekmektedir.  
 
 === Mevcut Etiketler
 
 * https://github.com/kodcu/mongo-docker/blob/46334095c48a53b979d9fac4fb5e2eea3693d3e3/3.0.7/Dockerfile[`3.0.7` (**3.0.7/Dockerfile**)]
 * https://github.com/kodcu/mongo-docker/blob/fb7acf2a1646405c289c7e7ac3142f8e35e1e40c/3.0.7-u/Dockerfile[`3.0.7-u` (**3.0.7-u/Dockerfile**)]
+* https://github.com/kodcu/mongo-docker/blob/3d1ea4559e35cd43063e952f008510bb2a6c84fa/3.2/Dockerfile[`3.2` (**3.2/Dockerfile**)]
